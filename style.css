@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* 海洋風淺藍背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #004d40; /* 海洋深綠色 */
+    font-size: 2em;
+    line-height: 1.4;
+}
+
+#countdown {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+#countdown span {
+    font-weight: bold;
+    color: #007bff; /* 鮮明藍色 */
+}
